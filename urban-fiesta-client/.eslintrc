@@ -1,3 +1,33 @@
-{
-  "ignorePatterns": [".eslintrc"]
-}
+// {
+//   "root": true,
+//   "parser": "@typescript-eslint/parser",
+//   "plugins": [
+//     "@typescript-eslint"
+//   ],
+//   "extends": [
+//     "eslint:recommended",
+//     "plugin:@typescript-eslint/eslint-recommended",
+//     "plugin:@typescript-eslint/recommended",
+//     "airbnb",
+//     "airbnb/hooks"
+//   ],
+//   "rules": { 
+//     "no-console": 2,
+//     "react/react-in-jsx-scope": "off",
+//     "react/jsx-filename-extension": [
+//       2, {
+//         "extensions": [".js", ".jsx", ".ts", ".tsx"]
+//       }
+//     ],
+//     "import/extensions": [
+//       "error",
+//       "ignorePackages",
+//       {
+//         "js": "never",
+//         "jsx": "never",
+//         "ts": "never",
+//         "tsx": "never"
+//       }
+//    ]
+//   }
+// }

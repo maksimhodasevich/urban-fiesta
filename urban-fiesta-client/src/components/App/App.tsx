@@ -1,9 +1,13 @@
-import React from 'react';
+import './App.module.scss';
 
-import styles from './App.module.scss'; 
+const App = () => {
+  let a;
 
-function App() {
-  return <div className={styles.appWrapper}>App</div>;
-}
+  if (true) {
+    a = 'Test text';
+  }
+
+  return <div className="app-wrapper">{a}</div>;
+};
 
 export default App;

@@ -2,18 +2,11 @@
 
 # dependencies
 /node_modules
-/urban-fiesta-client/node_modules
-/.pnp
-/urban-fiesta-client/.pnp.js
-.pnp.js
-/urban-fiesta-client/.pnp.js
 
 # testing
 /coverage
-/urban-fiesta-client/coverage
 
 # production
-/urban-fiesta-client/build
 /build
 
 # misc
