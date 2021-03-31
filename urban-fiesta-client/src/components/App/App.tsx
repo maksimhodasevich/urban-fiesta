@@ -1,13 +1,8 @@
-import './App.module.scss';
+import { FC } from "react";
+import "./App.module.scss";
 
-const App = () => {
-  let a;
-
-  if (true) {
-    a = 'Test text';
-  }
-
-  return <div className="app-wrapper">{a}</div>;
+const App: FC = () => {
+  return <div className="app-wrapper">initial text</div>;
 };
 
 export default App;
