@@ -21,6 +21,6 @@ jobs:
       - uses: actions/setup-node@v1 
         with:
           node-version: ${{ matrix.node-version }}
-      - run: cd urban-fiesta-client
+      - run: cd ./urban-fiesta-client
       - run: yarn install
       - run: yarn lint
