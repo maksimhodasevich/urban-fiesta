@@ -1,0 +1,19 @@
+name: GitHub Actions
+
+on:
+  pull_request:
+  push:
+   branches:
+    - master
+    - develop
+
+jobs:
+  lint:
+    name: Run linter
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: install
+      run: yarn install
+    - name: Test
+      run: yarn test
